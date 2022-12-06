@@ -1,0 +1,119 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+
+
+body {
+	font-family: montserrat;
+	background-image: url(logo.jpg);
+	background-size: cover;
+	background-position: centre;
+	background-repeat: no-repeat;
+
+}
+
+nav {
+	height: 80px;
+	width: 100%;
+	background: hsl(240, 100%, 90%)
+
+
+}
+
+nav {
+	display: flex;
+	align-items: centre;
+	justify-content: space-between; 
+	padding-top: 1px;
+	padding-left:1% ;
+	padding-right: 1%;
+}
+
+
+nav ul li {
+	
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+
+nav ul li a {
+	color: #7B68EE;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 33px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+
+
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 17px;
+    background-color: #45a1ff;
+    color: #fff;
+    margin-top: 20%;
+}
+a.active,a:hover{
+	background: #EE82EE;
+	transition: 0.5s;
+} 
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #98B4D4;
+  padding: 10px;
+  margin-top:10pc;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>RBKoffe</title>
+        <script src="javaScript.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="css/contact.css">
+        
+        <script src='https://code.jquery.com/jquery-2.2.4.js'></script>
+        
+    </head>
+    
+<header>
+            <nav>
+                <img id="logo" src="img/logo.png">
+                
+                  <ul>
+                    <li ><a  href="index.html">Home</a></li>
+                    <li><a  href="aboutus.html">About us</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="services.html">services</a></li>
+                    <li><a  class="active" href="contact.html">Contact US</a></li>
+                </ul>
+                    
+                
+            </nav>
+        </header>
+
+
+    <body> 
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Swing by for a cup of coffee, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="img/location.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form  action="mailto:someone@example.com" method="post" enctype="text/plain">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="Tunisia">Tunisia</option>
+          <option value="Algeria">Algeria</option>
+          <option value="Palestine">Palestine</option>
+          <option value="Egypt">Egypt</option>
+          <option value="Italia">Italia</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+ 
+
+</body>
+<footer>
+  <p>Created by Cohort-7-student2022 &copy;<br></p>
+</footer>
+
+
+</html>
